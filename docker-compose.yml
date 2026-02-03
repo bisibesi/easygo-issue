@@ -1,0 +1,17 @@
+services:
+  easygo-issue:
+    build: .
+    container_name: easygo-issue
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      # Persist SQLite Database
+      - ./server/database.sqlite:/app/server/database.sqlite
+      # Persist VCS Configuration
+      - ./vcs_config.json:/app/vcs_config.json
+      # (Optional) Map repositories if using local folders
+      # - ./server/sample_repo:/app/server/sample_repo
+    environment:
+      - NODE_ENV=production
+      - PORT=3000

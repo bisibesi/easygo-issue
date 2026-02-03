@@ -24,7 +24,7 @@ echo [INFO] Dependencies OK.
 
 :: 4. Build Frontend (Optimize: Skip if dist/index.html exists)
 if exist "%~dp0dist\index.html" (
-    echo [INFO] Build artifacts (dist/index.html) found. Skipping build step for faster startup...
+    echo [INFO] Build artifacts 'dist/index.html' found. Skipping build step for faster startup...
     goto :RUN_SERVER
 )
 

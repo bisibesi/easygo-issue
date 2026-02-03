@@ -28,8 +28,8 @@ else
     echo "[INFO] Dependencies already installed. Skipping npm install."
 fi
 
-# 4. Build Frontend (Skip if dist exists)
-if [ -d "$(dirname "$0")/dist" ]; then
+# 4. Build Frontend (Skip if dist/index.html exists)
+if [ -f "$(dirname "$0")/dist/index.html" ]; then
     echo "[INFO] Frontend build found. Skipping build..."
 else
     echo "[SETUP] Building frontend (First time run)..."
