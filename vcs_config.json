@@ -1,0 +1,28 @@
+{
+    "_comment": "Version Control System Configuration File",
+    "_instructions": "Modify the 'repositories' array below to match your environment.",
+    "svnExecutablePath": "",
+    "_svnNote": "Optional: Full path to svn.exe if not in system PATH (e.g., 'C:\\Program Files\\TortoiseSVN\\bin\\svn.exe')",
+    "autoSync": {
+        "enabled": false,
+        "intervalSeconds": 300,
+        "_note": "If enabled, the server will fetch remote changes every N seconds."
+    },
+    "repositories": [
+        {
+            "type": "GIT",
+            "name": "My Local Project (Git)",
+            "path": "C:/Projects/my-awesome-app",
+            "auth": {}
+        },
+        {
+            "type": "SVN",
+            "name": "Legacy Project (SVN)",
+            "path": "https://svn.company.com/repo/trunk",
+            "auth": {
+                "username": "myuser",
+                "password": "mypassword"
+            }
+        }
+    ]
+}
