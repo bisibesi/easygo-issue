@@ -1,0 +1,233 @@
+{
+    "issue": {
+        "status": "상태",
+        "priority": "우선순위",
+        "assignee": "담당자",
+        "milestone": "마일스톤",
+        "history": "이력",
+        "relations": "연관 이슈",
+        "startDate": "시작일",
+        "dueDate": "마감일",
+        "createdAt": "등록일",
+        "attachments": "첨부파일",
+        "detail": "상세 정보",
+        "commits": "커밋 내역",
+        "comments": "댓글",
+        "writeComment": "댓글 작성...",
+        "submit": "등록",
+        "new": "+ 새 이슈",
+        "createTitle": "새로운 이슈 작성",
+        "emptySelection": "이슈를 선택하거나 새로운 이슈를 만들어보세요.",
+        "unassigned": "미지정",
+        "none": "없음",
+        "loading": "불러오는 중...",
+        "noHistory": "활동 내역이 없습니다.",
+        "noIssues": "표시할 이슈가 없습니다.",
+        "titleLabel": "제목",
+        "todoPlaceholder": "할 일을 입력해주세요 (필수)",
+        "priorityLabel": "우선순위",
+        "labelLabel": "라벨",
+        "assigneeLabel": "담당자",
+        "milestoneLabel": "마일스톤",
+        "startDateLabel": "시작일",
+        "dueDateLabel": "마감일",
+        "attachmentLabel": "첨부파일",
+        "fileUploadError": "파일 업로드 중 오류가 발생했습니다.",
+        "validationError": "모든 필수 항목(제목, 담당자, 시작일, 마감일, 설명)을 입력해주세요.",
+        "selectAssignee": "담당자 선택",
+        "noMilestone": "마일스톤 없음",
+        "admin": "관리자",
+        "member": "팀원"
+    },
+    "status": {
+        "OPEN": "진행 전",
+        "IN_PROGRESS": "진행 중",
+        "CLOSED": "완료",
+        "RESOLVED": "해결됨"
+    },
+    "priority": {
+        "URGENT": "긴급",
+        "HIGH": "높음",
+        "MEDIUM": "보통",
+        "LOW": "낮음"
+    },
+    "label": {
+        "BUG": "버그",
+        "FEATURE": "기능",
+        "ENHANCEMENT": "개선",
+        "TASK": "작업"
+    },
+    "app": {
+        "title": "이슈 트래커",
+        "subtitle": "빠르고 간편하게"
+    },
+    "nav": {
+        "issues": "이슈 목록",
+        "schedule": "스케줄",
+        "wiki": "위키",
+        "analytics": "분석",
+        "admin": "관리자",
+        "logout": "로그아웃"
+    },
+    "notification": {
+        "title": "알림",
+        "clearAll": "전체 삭제",
+        "empty": "알림이 없습니다."
+    },
+    "action": {
+        "start": "진행 시작",
+        "verify": "검수 요청",
+        "approve": "승인",
+        "reopen": "다시 열기",
+        "delete": "삭제",
+        "edit": "수정",
+        "cancel": "취소",
+        "save": "저장",
+        "connect": "연결",
+        "add": "+ 추가",
+        "changeStatus": "상태 변경",
+        "markComplete": "완료 처리",
+        "addIssue": "이슈 추가"
+    },
+    "message": {
+        "deleteConfirm": "정말로 이 이슈를 삭제하시겠습니까?"
+    },
+    "relation": {
+        "related": "연관됨",
+        "blocks": "차단함",
+        "blockedBy": "차단됨",
+        "subtask": "하위 작업"
+    },
+    "filter": {
+        "statusAll": "상태: 전체",
+        "priorityAll": "우선순위: 전체",
+        "labelAll": "라벨: 전체"
+    },
+    "admin": {
+        "dashboard": "관리자 대시보드",
+        "users": "사용자 관리",
+        "milestones": "마일스톤",
+        "integrations": "연동 설정",
+        "stats": {
+            "total": "총 이슈",
+            "open": "진행 중",
+            "closed": "완료됨",
+            "highPriority": "긴급/높음"
+        },
+        "user": {
+            "title": "시스템 사용자 관리",
+            "desc": "이슈 트래커에 로그인할 수 있는 사용자를 관리합니다.",
+            "name": "이름",
+            "id": "아이디",
+            "role": "권한",
+            "manage": "관리",
+            "editName": "이름 수정",
+            "namePlaceholder": "이름 (예: 홍길동)",
+            "emailPlaceholder": "아이디/이메일",
+            "password": "비밀번호",
+            "passwordChange": "비밀번호 (변경 시에만 입력)",
+            "passwordPlaceholder": "비밀번호",
+            "passwordChangePlaceholder": "비밀번호 변경 (선택)",
+            "userRole": "일반 사용자",
+            "adminRole": "관리자",
+            "add": "사용자 추가",
+            "update": "수정 완료",
+            "added": "사용자가 추가되었습니다.",
+            "updated": "사용자 정보가 수정되었습니다.",
+            "deleted": "사용자가 삭제되었습니다."
+        },
+        "milestone": {
+            "title": "마일스톤 관리",
+            "editTitle": "마일스톤 수정",
+            "desc": "프로젝트의 주요 마일스톤 및 마감일을 관리합니다.",
+            "namePlaceholder": "마일스톤 명칭",
+            "descPlaceholder": "설명 (선택)",
+            "targetDate": "타겟 날짜",
+            "undefined": "미지정",
+            "added": "마일스톤이 생성되었습니다.",
+            "updated": "마일스톤이 수정되었습니다.",
+            "deleted": "마일스톤이 삭제되었습니다.",
+            "deleteConfirm": "정말로 이 마일스톤을 삭제하시겠습니까?"
+        },
+        "integration": {
+            "title": "시스템 연동 설정",
+            "desc": "Slack, Notion 및 Git/SVN 연동을 관리합니다.",
+            "slack": "Slack 연동",
+            "slackDesc": "실시간 알림을 받을 Slack Incoming Webhook URL을 입력하세요.",
+            "notion": "Notion 연동",
+            "notionDesc": "노션 데이터베이스 동기화를 위한 API 토큰과 DB ID를 입력하세요.",
+            "save": "설정 저장",
+            "saved": "설정이 저장되었습니다."
+        },
+        "reset": {
+            "title": "시스템 초기화",
+            "desc": "위키 페이지를 제외한 모든 데이터(이슈, 사용자(admin계정 제외), 마일스톤, 알림 등)를 삭제합니다.",
+            "warning": "이 작업은 취소할 수 없으며, 수행 시 모든 작업 데이터가 영구적으로 삭제됩니다.",
+            "button": "시스템 전체 초기화 실행",
+            "confirmTitle": "[위험] 시스템 전체 초기화를 진행하시겠습니까?",
+            "confirmBody": "모든 이슈, 사용자(admin 제외), 마일스톤, 알림 등이 삭제됩니다.\n(위키 정보는 유지됩니다)\n진행하려면 확인 코드 [ {code} ] 를 입력하세요:",
+            "success": "시스템 초기화가 완료되었습니다. 다시 로그인해주세요."
+        }
+    },
+    "login": {
+        "title": "관리자 로그인",
+        "desc": "시스템 관리를 위해 로그인해주세요.",
+        "id": "아이디",
+        "password": "비밀번호",
+        "submit": "로그인",
+        "error": "아이디 또는 비밀번호가 올바르지 않습니다."
+    },
+    "analytics": {
+        "title": "프로젝트 분석 데이타",
+        "subtitle": "이슈 트래킹 및 생산성 분석",
+        "total": "전체 이슈",
+        "accumulated": "누적 데이터",
+        "completed": "완료됨",
+        "completionRate": "완료율",
+        "ongoing": "진행 중",
+        "ongoingDesc": "현재 처리 중",
+        "avgTime": "평균 해결 시간",
+        "days": "일",
+        "recent30": "최근 30일 기준",
+        "statusDist": "상태별 분포",
+        "priorityDist": "우선순위별 현황",
+        "milestoneProgress": "마일스톤별 진행 현황",
+        "issuesCompleted": "이슈 완료",
+        "dueDate": "마감일",
+        "noMilestones": "등록된 마일스톤이 없습니다.",
+        "trend": "월별 이슈 생성 추이",
+        "legend": {
+            "pending": "대기",
+            "progress": "진행",
+            "verify": "검증",
+            "completed": "완료",
+            "urgent": "긴급",
+            "high": "높음",
+            "medium": "보통",
+            "low": "낮음"
+        },
+        "month": "월"
+    },
+    "schedule": {
+        "title": "나의 일정",
+        "adminStats": "담당자별 성과 지표",
+        "delayRate": "지연율",
+        "noData": "데이터 없음",
+        "completionRate": "완료율",
+        "avgEfficiency": "평균 효율",
+        "completed": "완료",
+        "empty": "이번 달에 예정된 일정이 없거나 날짜가 지정되지 않았습니다.",
+        "requested": "내가 요청한 이슈",
+        "assigned": "나에게 할당된 이슈"
+    },
+    "wiki": {
+        "newPage": "+ 새 페이지",
+        "newPageTitle": "새 문서",
+        "newPageContent": "# 제목을 입력하세요\n\n내용을 입력하세요.",
+        "placeholderTitle": "제목",
+        "placeholderContent": "내용을 입력하세요...",
+        "search": "검색...",
+        "empty": "문서를 선택하거나 새로 만드세요.",
+        "deleteConfirm": "이 문서를 삭제하시겠습니까?"
+    }
+}

@@ -1,0 +1,233 @@
+{
+    "issue": {
+        "status": "Status",
+        "priority": "Priority",
+        "assignee": "Assignee",
+        "milestone": "Milestone",
+        "history": "History",
+        "relations": "Relations",
+        "startDate": "Start Date",
+        "dueDate": "Due Date",
+        "createdAt": "Created At",
+        "attachments": "Attachments",
+        "detail": "Details",
+        "commits": "Commits",
+        "comments": "Comments",
+        "writeComment": "Write a comment...",
+        "submit": "Submit",
+        "new": "+ New Issue",
+        "createTitle": "Create New Issue",
+        "emptySelection": "Select an issue or create a new one.",
+        "unassigned": "Unassigned",
+        "none": "None",
+        "loading": "Loading...",
+        "noHistory": "No history available.",
+        "noIssues": "No issues to display.",
+        "titleLabel": "Title",
+        "todoPlaceholder": "Enter task title (required)",
+        "priorityLabel": "Priority",
+        "labelLabel": "Label",
+        "assigneeLabel": "Assignee",
+        "milestoneLabel": "Milestone",
+        "startDateLabel": "Start Date",
+        "dueDateLabel": "Due Date",
+        "attachmentLabel": "Attachments",
+        "fileUploadError": "Error uploading file.",
+        "validationError": "Please fill in all required fields.",
+        "selectAssignee": "Select Assignee",
+        "noMilestone": "No Milestone",
+        "admin": "Admin",
+        "member": "Member"
+    },
+    "status": {
+        "OPEN": "Open",
+        "IN_PROGRESS": "In Progress",
+        "CLOSED": "Closed",
+        "RESOLVED": "Resolved"
+    },
+    "priority": {
+        "URGENT": "Urgent",
+        "HIGH": "High",
+        "MEDIUM": "Medium",
+        "LOW": "Low"
+    },
+    "label": {
+        "BUG": "Bug",
+        "FEATURE": "Feature",
+        "ENHANCEMENT": "Enhancement",
+        "TASK": "Task"
+    },
+    "app": {
+        "title": "Issue Tracker",
+        "subtitle": "Fast and Simple"
+    },
+    "nav": {
+        "issues": "Issues",
+        "schedule": "Schedule",
+        "wiki": "Wiki",
+        "analytics": "Analytics",
+        "admin": "Admin",
+        "logout": "Logout"
+    },
+    "notification": {
+        "title": "Notifications",
+        "clearAll": "Clear All",
+        "empty": "No notifications."
+    },
+    "action": {
+        "start": "Start Progress",
+        "verify": "Request Verification",
+        "approve": "Approve",
+        "reopen": "Reopen",
+        "delete": "Delete",
+        "edit": "Edit",
+        "cancel": "Cancel",
+        "save": "Save",
+        "connect": "Connect",
+        "add": "+ Add",
+        "changeStatus": "Change Status",
+        "markComplete": "Mark Complete",
+        "addIssue": "Add Issue"
+    },
+    "message": {
+        "deleteConfirm": "Are you sure you want to delete this issue?"
+    },
+    "relation": {
+        "related": "Related",
+        "blocks": "Blocks",
+        "blockedBy": "Blocked By",
+        "subtask": "Subtask"
+    },
+    "filter": {
+        "statusAll": "Status: All",
+        "priorityAll": "Priority: All",
+        "labelAll": "Label: All"
+    },
+    "admin": {
+        "dashboard": "Admin Dashboard",
+        "users": "User Management",
+        "milestones": "Milestones",
+        "integrations": "Integrations",
+        "stats": {
+            "total": "Total Issues",
+            "open": "In Progress",
+            "closed": "Closed",
+            "highPriority": "Urgent/High"
+        },
+        "user": {
+            "title": "System User Management",
+            "desc": "Manage users who can log in to the issue tracker.",
+            "name": "Name",
+            "id": "ID",
+            "role": "Role",
+            "manage": "Manage",
+            "editName": "Edit Name",
+            "namePlaceholder": "Name (e.g. John Doe)",
+            "emailPlaceholder": "ID/Email",
+            "password": "Password",
+            "passwordChange": "Password (only if changing)",
+            "passwordPlaceholder": "Password",
+            "passwordChangePlaceholder": "New Password (optional)",
+            "userRole": "User",
+            "adminRole": "Admin",
+            "add": "Add User",
+            "update": "Update User",
+            "added": "User added.",
+            "updated": "User updated.",
+            "deleted": "User deleted."
+        },
+        "milestone": {
+            "title": "Milestone Management",
+            "editTitle": "Edit Milestone",
+            "desc": "Manage project milestones and due dates.",
+            "namePlaceholder": "Milestone Name",
+            "descPlaceholder": "Description (optional)",
+            "targetDate": "Target Date",
+            "undefined": "Undefined",
+            "added": "Milestone created.",
+            "updated": "Milestone updated.",
+            "deleted": "Milestone deleted.",
+            "deleteConfirm": "Are you sure you want to delete this milestone?"
+        },
+        "integration": {
+            "title": "System Integrations",
+            "desc": "Manage Slack, Notion, and Git/SVN integrations.",
+            "slack": "Slack Integration",
+            "slackDesc": "Enter Slack Incoming Webhook URL for real-time notifications.",
+            "notion": "Notion Integration",
+            "notionDesc": "Enter API Token and Database ID for Notion synchronization.",
+            "save": "Save Settings",
+            "saved": "Settings saved."
+        },
+        "reset": {
+            "title": "System Reset",
+            "desc": "Delete all data (issues, users except admin, milestones, notifications) except Wiki pages.",
+            "warning": "This action cannot be undone. All work data will be permanently deleted.",
+            "button": "Execute System Reset",
+            "confirmTitle": "[DANGER] execute system reset?",
+            "confirmBody": "All issues, users (except admin), milestones, notifications will be deleted.\n(Wiki data will be preserved)\nEnter confirmation code [ {code} ] to proceed:",
+            "success": "System reset complete. Please login again."
+        }
+    },
+    "login": {
+        "title": "Admin Login",
+        "desc": "Please login for system management.",
+        "id": "ID",
+        "password": "Password",
+        "submit": "Login",
+        "error": "Invalid ID or password."
+    },
+    "analytics": {
+        "title": "Project Analytics",
+        "subtitle": "Issue tracking and productivity analysis",
+        "total": "Total Issues",
+        "accumulated": "Accumulated Data",
+        "completed": "Completed",
+        "completionRate": "Completion Rate",
+        "ongoing": "In Progress",
+        "ongoingDesc": "Currently processing",
+        "avgTime": "Avg Resolution Time",
+        "days": "Days",
+        "recent30": "Last 30 Days",
+        "statusDist": "Status Distribution",
+        "priorityDist": "Priority Distribution",
+        "milestoneProgress": "Milestone Progress",
+        "issuesCompleted": "issues completed",
+        "dueDate": "Due Date",
+        "noMilestones": "No milestones registered.",
+        "trend": "Monthly Issue Trend",
+        "legend": {
+            "pending": "Pending",
+            "progress": "In Progress",
+            "verify": "Verify",
+            "completed": "Completed",
+            "urgent": "Urgent",
+            "high": "High",
+            "medium": "Medium",
+            "low": "Low"
+        },
+        "month": "Month"
+    },
+    "schedule": {
+        "title": "My Schedule",
+        "adminStats": "Performance Metrics by Assignee",
+        "delayRate": "Delay Rate",
+        "noData": "No Data",
+        "completionRate": "Completion Rate",
+        "avgEfficiency": "Avg Efficiency",
+        "completed": "Completed",
+        "empty": "No scheduled issues for this month.",
+        "requested": "Requested by me",
+        "assigned": "Assigned to me"
+    },
+    "wiki": {
+        "newPage": "+ New Page",
+        "newPageTitle": "New Document",
+        "newPageContent": "# Title\n\nContent",
+        "placeholderTitle": "Title",
+        "placeholderContent": "Enter content...",
+        "search": "Search...",
+        "empty": "Select a document or create a new one.",
+        "deleteConfirm": "Are you sure you want to delete this document?"
+    }
+}
